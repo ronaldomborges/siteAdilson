@@ -85,3 +85,25 @@ footer {
 .textCenter {
     text-align: center
 }
+
+.areas1 { 
+padding: 20px;
+margin: 10px;
+text-decoration: none;
+color: black;
+   
+}
+.areas1:hover {
+  background-color: rgb(233, 233, 233);  
+  color: black;
+}
+
+.espaco {
+    margin-top: 20px;
+}
+
+.textop {
+    margin-bottom: 20px;
+    color: black;
+}
+

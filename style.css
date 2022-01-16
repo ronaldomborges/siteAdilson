@@ -98,6 +98,15 @@ color: black;
   color: black;
 }
 
+.areas2 {
+    text-decoration: none;
+    color: black;
+}
+
+.areas2:hover {
+    color: black;  
+}
+
 .espaco {
     margin-top: 20px;
 }
@@ -107,3 +116,7 @@ color: black;
     color: black;
 }
 
+.rostos {
+    text-align: center;
+    margin-top: 30px;
+}

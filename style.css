@@ -98,11 +98,18 @@ color: black;
   color: black;
 }
 
-.areas2 {
+.areas2[href^="oEscritorio.html#doutor1"] {
     text-decoration: none;
     color: black;
 }
-
+.areas2[href^="oEscritorio.html#doutor2"] {
+    text-decoration: none;
+    color: black;
+}
+.areas2[href^="oEscritorio.html#doutor3"] {
+    text-decoration: none;
+    color: black;
+}
 .areas2:hover {
     color: black;  
 }

@@ -230,3 +230,8 @@ h2 {
 .logo01 {
     width: 150px;
 }
+
+.centerH6 {
+    margin-top: 10px;
+    margin-bottom: -5px;
+}

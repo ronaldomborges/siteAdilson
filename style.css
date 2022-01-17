@@ -99,6 +99,7 @@ color: black;
     color: white;  
     background-color: #212529;
     border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
 }
 
 .areas2[href^="oEscritorio.html#doutor1"] {
@@ -119,6 +120,7 @@ color: black;
 .areas2:hover {
     color: white;  
     background-color: #212529;
+    box-shadow: 0px 0px 15px black;
 }
 
 .espaco {

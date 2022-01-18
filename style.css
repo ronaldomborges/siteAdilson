@@ -60,7 +60,10 @@ h6:hover {
     height: 150px;
     width: 100%;
 }
+
 }
+
+
 .prima {
     margin-top: 50px;
 }
@@ -132,7 +135,7 @@ color: black;
 
 .textop {
     margin-bottom: 20px;
-    color: black;
+    
 }
 
 .rostos {
@@ -164,53 +167,7 @@ h2 {
     box-sizing: border-box;
    }
 
-   .textA{
-    animation: fadein 3s; /* Padrão */
-    -webkit-animation: fadein 3s; /* Webkit */
-    -moz-animation: fadein 3s; /* Firefox */
-    -ms-animation: fadein 3s; /* IE */
-    }
-    @keyframes fadein {
-        from { opacity: 0.3; }
-        to { opacity: 1; } /* Padrão */
-        }
-    @-moz-keyframes fadein {
-       from { opacity: 0.3; }
-       to { opacity: 1; } /* Firefox */
-            }
-    @-webkit-keyframes fadein {
-        from { opacity: 0.3;} 
-        to { opacity: 1; } /* Webkit */
-             }
-    @-ms-keyframes fadein {
-        from { opacity: 0.3; }
-        to { opacity: 1; } /* IE */
-                }
-
- 
-
-                .textA{
-                    animation: fadein 3s; /* Padrão */
-                    -webkit-animation: fadein 3s; /* Webkit */
-                    -moz-animation: fadein 3s; /* Firefox */
-                    -ms-animation: fadein 3s; /* IE */
-                    }
-                    @keyframes fadein {
-                        from { opacity: 0.0; }
-                        to { opacity: 1; } /* Padrão */
-                        }
-                    @-moz-keyframes fadein {
-                       from { opacity: 0.0; }
-                       to { opacity: 1; } /* Firefox */
-                            }
-                    @-webkit-keyframes fadein {
-                        from { opacity: 0.0;} 
-                        to { opacity: 1; } /* Webkit */
-                             }
-                    @-ms-keyframes fadein {
-                        from { opacity: 0.0; }
-                        to { opacity: 1; } /* IE */
-                                }
+  
 .logo01 {
     width: 150px;
 }
@@ -220,3 +177,39 @@ h2 {
     margin-bottom: -5px;
 }
 
+.justT {
+ width: 100px;  
+ margin-top: 20px; 
+ margin-bottom: -80px;
+}
+
+.just {
+    
+    margin-left: 290px;
+}
+
+.just2 {
+    
+    margin-left: 150px;
+}
+
+@media (max-width: 990px) {
+    .justT {
+        width: 100px;  
+       
+       }  
+       .just {
+    
+        margin-left: 10%;
+      
+    }
+    
+    .just2 {
+        
+     visibility: hidden;
+    }
+    .textop {
+margin-top: 10px;
+    }
+    
+}

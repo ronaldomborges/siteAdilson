@@ -110,18 +110,24 @@ color: black;
     color: black;
     border-radius: 20px;
     margin-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px ;
 }
 .areas2[href^="oEscritorio.html#doutor2"] {
     text-decoration: none;
     color: black;
     border-radius: 20px;
     margin-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px ;
 }
 .areas2[href^="oEscritorio.html#doutor3"] {
     text-decoration: none;
     color: black;
     border-radius: 20px;
     margin-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px ;
 }
 .areas2:hover {
     color: white;  
@@ -304,4 +310,36 @@ h2 {
     
     color: white;
    
+}
+
+.rostosP {
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+ 
+@media (max-width: 990px) {
+    .areas2[href^="oEscritorio.html#doutor1"] {
+        text-decoration: none;
+        color: black;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px ;
+    }
+    .areas2[href^="oEscritorio.html#doutor2"] {
+        text-decoration: none;
+        color: black;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px ;
+    }
+    .areas2[href^="oEscritorio.html#doutor3"] {
+        text-decoration: none;
+        color: black;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px ;
+    }
 }

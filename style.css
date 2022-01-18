@@ -228,4 +228,14 @@ h2 {
         margin-bottom: 40px;
         width: 50px;
     }
+    #nosQ {
+        width: 60px; 
+        margin-top: -15px; 
+    }
+}
+#nosQ {
+    width: 80px;
+    margin-left: -200px;
+    margin-bottom: -50px;
+    margin-top: -10px;
 }

@@ -368,3 +368,10 @@ h2 {
     margin-right: 350px;
     margin-bottom: -40px;
 }
+@media (max-width: 990px) {
+    .imG1tr {
+        width: 90px;
+        margin-right: 350px;
+        margin-bottom: -45px;
+    } 
+}

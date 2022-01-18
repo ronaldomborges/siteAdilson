@@ -345,3 +345,26 @@ h2 {
         padding-bottom: 10px ;
     }
 }
+
+.imG1 {
+    width: 70px;
+    margin-right: 280px;
+    margin-bottom: -40px;
+}
+.imG1t {
+    width: 75px;
+    margin-right: 330px;
+    margin-bottom: -40px;
+}
+
+.imG1tr {
+    width: 75px;
+    margin-right: 350px;
+    margin-bottom: -45px;
+}
+
+.imG1e {
+    width: 70px;
+    margin-right: 350px;
+    margin-bottom: -40px;
+}

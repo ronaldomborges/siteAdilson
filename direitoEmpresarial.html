@@ -9,80 +9,81 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Adilson Amadeu Associados</title>
 </head>
 
 <body>
-   
-        <header id="topo11">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img class="logo01"  src="images/logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="index.html">
-                                    <h6>Início</h6>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="oEscritorio.html">
-                                    <h6>O Escritório</h6>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <h6>Área de atuação </h6>
-                                </a>
-                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="direitoCivel.html">
-                                            <h6>Direito Cível</h6>
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="direitoPenal.html">
-                                            <h6>Direito Penal</h6>
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="diretitoTributario.html">
-                                            <h6>Direito Tributário</h6>
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="direitoTrabalhista.html">
-                                            <h6>Direito Trabalhista</h6>
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="direitoEmpresarial.html">
-                                            <h6>Direito Empresarial</h6>
-                                        </a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contato.html">
-                                    <h6>Contato</h6>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                  <h6>Blog</h6>
-                                </a>
-                              </li>
-                        </ul>
 
-                    </div>
+    <header id="topo11">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="logo01" src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">
+                                <h6>Início</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="oEscritorio.html">
+                                <h6>O Escritório</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <h6>Área de atuação </h6>
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="direitoCivel.html">
+                                        <h6>Direito Cível</h6>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="direitoPenal.html">
+                                        <h6>Direito Penal</h6>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="diretitoTributario.html">
+                                        <h6>Direito Tributário</h6>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="direitoTrabalhista.html">
+                                        <h6>Direito Trabalhista</h6>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="direitoEmpresarial.html">
+                                        <h6>Direito Empresarial</h6>
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">
+                                <h6>Contato</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h6>Blog</h6>
+                            </a>
+                        </li>
+                    </ul>
+
                 </div>
-            </nav>
+            </div>
+        </nav>
 
 
-        </header>
-    
+    </header>
+
 
     <div class="textAn container">
 
         <div class="row">
             <div class="col-sm-1"></div>
-            <div class="col-sm-10 centro">
+            <div data-aos="fade-up" class="col-sm-10 centro">
                 <h2 style=" margin-bottom: 30px;">Direito Empresarial</h2>
                 <p class="parag01 textAnP">
                     O direito empresarial, muitas vezes chamado de Direito Comercial, tem como objetivo justamente
@@ -95,20 +96,23 @@
                     econômicas deve ser atribuída à iniciativa privada. Portanto, aos particulares fica o papel
                     primordial, reservando ao Estado apenas uma função supletiva.
                 </p>
-                <h5>Conceito de sociedade empresária</h5>
-                <p class="parag01 textAnP">
+                <div data-aos="fade-up">
+                    <h5>Conceito de sociedade empresária</h5>
+                </div>
+
+                <p data-aos="fade-up" class="parag01 textAnP">
 
                     O conceito de sociedade empresária é fundamental para entender toda a sistemática do direito
                     empresarial. Se você quer saber tudo de direito empresarial, precisa conhecer bem a sociedade
                     empresária.
                 </p>
-                <p class="parag01 textAnP">
+                <p data-aos="fade-up"class="parag01 textAnP">
                     A definição está no artigo 982 e no artigo 966 do Código Civil, que considera “empresária” a
                     sociedade de quem exerce atividade própria de empresário. Ou seja, daquele que realiza
                     profissionalmente atividade econômica organizada para a produção ou a circulação de bens ou de
                     serviços.
                 </p>
-                <img class="iconeJust" src="images/balanca.png" alt="ícone da justiça">
+                <img data-aos="fade-up" class="iconeJust" src="images/balanca.png" alt="ícone da justiça">
             </div>
             <div class="col-sm-1"></div>
 
@@ -130,17 +134,17 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-5">
                     <ul class="list-unstyled">
-                        
-                            <li>
-                                <h6 class="centerH6"> Endereço:</h6>
-                            </li>
-                            <li>
-                                <a class="linke"
-                                    href="https://www.google.com.br/maps/place/Av.+Rebou%C3%A7as,+3520+-+Pinheiros,+S%C3%A3o+Paulo+-+SP,+05402-600/@-23.5718939,-46.6950405,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce570ba2ca5b61:0x2db5ea290fc4ae56!8m2!3d-23.5718939!4d-46.6928518"
-                                    target="_blank"> Av. Rebouças, 3520
-                                </a>
-                            </li>
-                        
+
+                        <li>
+                            <h6 class="centerH6"> Endereço:</h6>
+                        </li>
+                        <li>
+                            <a class="linke"
+                                href="https://www.google.com.br/maps/place/Av.+Rebou%C3%A7as,+3520+-+Pinheiros,+S%C3%A3o+Paulo+-+SP,+05402-600/@-23.5718939,-46.6950405,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce570ba2ca5b61:0x2db5ea290fc4ae56!8m2!3d-23.5718939!4d-46.6928518"
+                                target="_blank"> Av. Rebouças, 3520
+                            </a>
+                        </li>
+
 
 
 
@@ -185,6 +189,12 @@
     </footer>
 
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>

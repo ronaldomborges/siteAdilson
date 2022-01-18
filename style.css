@@ -239,3 +239,69 @@ h2 {
     margin-bottom: -50px;
     margin-top: -10px;
 }
+
+.areaSomos {
+    color: white;  
+    background-color: #212529;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+    
+    padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   
+}
+.areaDir {
+   
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #212529;
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding-top: 30px ;
+    padding-bottom: 20px ;
+    color: white;  
+    background-color: #212529;
+    
+   
+}
+
+@media (max-width: 990px) {
+    .areaDir {
+        box-shadow: 0px 0px 0px #212529;
+    }
+}
+.areaDout {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #212529;
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding-top: 30px ;
+    padding-bottom: 20px ;
+    color: white;  
+    background-color: #212529;
+    margin-bottom: 30px;
+}
+
+.areaSob {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #212529;
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding-top: 30px ;
+    padding-bottom: 20px ;
+    
+    margin-bottom: 30px;
+}
+.leiaM {
+    
+    text-decoration: none;
+   
+    color: white;
+    
+}
+
+.leiaM:hover {
+    
+    color: white;
+   
+}
